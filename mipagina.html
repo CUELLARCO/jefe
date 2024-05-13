@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cascada Sagrada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header class = "container-fluid bg-primary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-5">sumergete en la aventura</p>
+    </header>
+
+<!--menu-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold">Cascada Sagrada</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="mipagina.html">Inicio</a><!--incluie enlace-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Equipo</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">contacto</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Que quieres conocer?" aria-label="Search">
+              <button class="btn btn-primary-outline-success btn-primary" type="submit">Viaja</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--imagenes deslizantes-->
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000"><!--para controla tiempo de movimiento -->
+        <img src="img/freas.png" class="d-block w-100" alt="fresa1">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="img/freas.png" class="d-block w-100" alt="fresa2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="img/freas.png" class="d-block w-100" alt="fresa3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--comienzo-->
+
+  <section class="w-50 mx-auto text-center pt-5" id="comi">
+    <h1 class="p-3 fs-2 border-top borde-3">viaja por lugares magicos<span class="text-primary"> Turismo</span></h1>
+    <p class="p-3 fs-4"><span class="text-primary">Cascada Sagrada</span>Viaja y conoce lugares magicos en colombia</p>
+  </section>
+
+   <!--servicios-->
+
+   <section class="container-fluid">
+    <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="img/freas.png" alt="planes" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">planes</h3>
+                <p class="px-4">conoce planes de viaje</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="img/freas.png" alt="lugares" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">lugares</h3>
+                <p class="px-4">conoce mas sobre los viajes</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="img/freas.png" alt="guias" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">guias</h3>
+                <p class="px-4">conoce mas sobre los guias</p>
+            </div>
+        </div>
+    </div>
+   </section>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

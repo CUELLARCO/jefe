@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Información</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-info">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Insertar Información
+                    </div>
+                    <div class="card-body">
+                        <form action="insertboos.php" method="POST">
+                            <div class="form-group">
+                                <label for="cedula">Cédula</label>
+                                <input type="text" class="form-control" id="cedula" name="cedula" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="apodo">Apodo</label>
+                                <input type="text" class="form-control" id="apodo" name="apodo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="genero">Género</label>
+                                <select class="form-control" id="genero" name="genero" required>
+                                    <option value="">Seleccionar Género</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="curso">Curso</label>
+                                <input type="text" class="form-control" id="curso" name="curso" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </form>
+
+                        <form action="pagina-busque.html" method="post">
+
+                            <button type="submit" class="btn btn-primary">Buscar</button>
+                            
+                        </form>
+
+                        <form action="BORRA-INFO.html" method="post">
+
+                            <button type="submit" class="btn btn-primary">borrar</button>
+                            
+                        </form>
+
+                        <form action="update.html" method="post">
+
+                            <button type="submit" class="btn btn-primary">actualiza</button>
+                            
+                            </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
