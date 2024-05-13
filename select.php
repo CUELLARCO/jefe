@@ -22,7 +22,7 @@
       echo "</table>";
 
     } else {
-      echo "No existe un usuario con esa cédula.";
+      echo "No existe ese usuario :(";
     }
 
     
